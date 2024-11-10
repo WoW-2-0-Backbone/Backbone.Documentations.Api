@@ -1,8 +1,38 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TextTemplates", "TextTemplates", "{BDF8E9D5-EABC-4A79-BA57-2B79F043D486}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backbone.Documentations.TextTemplates.Abstractions", "Backbone.Documentations.TextTemplates.Abstractions\Backbone.Documentations.TextTemplates.Abstractions.csproj", "{C9D7D98B-ACE8-4C56-8104-140BC6839351}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basic", "Basic", "{EDA7D612-73E1-4A00-BAF7-AD90BC33DC77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backbone.Documentations.TextTemplates.Basic", "Backbone.Documentations.TextTemplates.Basic\Backbone.Documentations.TextTemplates.Basic.csproj", "{9B75DAC9-1DC5-43F7-8003-7A3327D3076C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backbone.Documentations.TextTemplates.DependencyInjection", "Backbone.Documentations.TextTemplates.DependencyInjection\Backbone.Documentations.TextTemplates.DependencyInjection.csproj", "{B1508003-71B6-4FE5-B1B1-5EC78D7874DE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C9D7D98B-ACE8-4C56-8104-140BC6839351} = {BDF8E9D5-EABC-4A79-BA57-2B79F043D486}
+		{EDA7D612-73E1-4A00-BAF7-AD90BC33DC77} = {BDF8E9D5-EABC-4A79-BA57-2B79F043D486}
+		{9B75DAC9-1DC5-43F7-8003-7A3327D3076C} = {EDA7D612-73E1-4A00-BAF7-AD90BC33DC77}
+		{B1508003-71B6-4FE5-B1B1-5EC78D7874DE} = {EDA7D612-73E1-4A00-BAF7-AD90BC33DC77}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9D7D98B-ACE8-4C56-8104-140BC6839351}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9D7D98B-ACE8-4C56-8104-140BC6839351}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9D7D98B-ACE8-4C56-8104-140BC6839351}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9D7D98B-ACE8-4C56-8104-140BC6839351}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B75DAC9-1DC5-43F7-8003-7A3327D3076C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B75DAC9-1DC5-43F7-8003-7A3327D3076C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B75DAC9-1DC5-43F7-8003-7A3327D3076C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B75DAC9-1DC5-43F7-8003-7A3327D3076C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1508003-71B6-4FE5-B1B1-5EC78D7874DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1508003-71B6-4FE5-B1B1-5EC78D7874DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1508003-71B6-4FE5-B1B1-5EC78D7874DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1508003-71B6-4FE5-B1B1-5EC78D7874DE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
